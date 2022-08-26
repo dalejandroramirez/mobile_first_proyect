@@ -1,0 +1,23 @@
+.product-cards--container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.product-detail--card{
+    width: 100%;
+    min-width: 250px;
+    max-width: 300px;
+    min-height: 150px;
+    margin: 15px auto;
+    padding: 15px;
+    background-color: var(--black);
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgb(0 0 0 / 39%);
+}
+
+.main-table-container .left-arrow,
+.main-table-container .right-arrow{
+    display: none;
+}
